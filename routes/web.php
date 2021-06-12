@@ -40,3 +40,8 @@ Route::get('/sum/{num1}/{num2}', function ($num1, $num2) {
     return "ผลรวม $num1 และ $num2 คือ ". ($num1 + $num2);
 
 });
+
+Route::get('/sum1/{num1}/{num2}', function ($num1, $num2) {
+    return "ผลรวม $num1 และ $num2 คือ ". ($num1 + $num2);
+
+});
